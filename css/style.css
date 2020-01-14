@@ -123,6 +123,13 @@ a{
 .buythistheme{
     position: relative;
 }
+.right-menu{
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: 70%;
+    display: flex;
+}
 .row .hot{
     position: absolute;
     top: 26%;
@@ -140,15 +147,11 @@ a{
 }
 #main .right {
     background:#ccc;
-    width: 700px;
+    float: left;
+    width: 500px;
     min-height: 400px;
 
-    /* float:left; */
-}
-#main img{
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 20px;
+    float:left;
 }
 .form-control1{
   border-top-left-radius: 20px;
