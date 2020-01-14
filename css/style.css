@@ -115,6 +115,8 @@ a{
 }
 .dropdown-toggle{
   margin-top: 30px;
+  white-space: nowrap;
+  padding-left: 9px;
 }
 .row .right .btndropdown{
   margin-left: 220px;
@@ -140,18 +142,53 @@ a{
     top: 26%;
     left: 20.5%;
 }
-#main .left {
-    width: 700px;
-    float:left;
+.main {
+    clear: left;
+      /* border-top: 0px solid #ccc; */
+    margin-left: 105px;
+    width: 1140px;
+    display: flex;
     min-height: 270px;
 }
-#main .right {
+/* .main .right {
+    border-top: 24px solid white;
+    border-left: 32px solid white;
     background:#ccc;
     float: left;
-    width: 500px;
+    width: 260px;
     min-height: 400px;
-
     float:left;
+}
+.main .left{
+  border-top: 24px solid white;
+  border-left: 20px solid white;
+  background:#ccc;
+  float: left;
+  width: 870px;
+  min-height: 550px;
+} */
+/* .slidebig_container{
+  width: 870px;
+  height: 550px;
+} */
+.img_left{
+  border-top: 24px solid #ffffff;
+
+  float: left;
+  width: 870px;
+  height: 550px;
+}
+.img_right{
+  border-top: 24px solid #ffffff;
+  border-width: 12px solid #ffffff;
+  float: left;
+  width: 270px;
+  height: 550px;
+}
+.slider-image{
+  float: left;
+  margin: 27px auto 0px 0px;
+  padding: 0px;
 }
 .form-control1{
   border-top-left-radius: 20px;
