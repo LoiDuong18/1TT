@@ -1,4 +1,8 @@
 /* Header */
+body{
+  width: auto;
+  height: 3650px;
+}
 #nav_top{
   background: black;
   color: white;
@@ -173,10 +177,10 @@ a{
 } */
 .img_left{
   border-top: 24px solid #ffffff;
-
   float: left;
   width: 870px;
   height: 550px;
+  margin-top: 2px;
 }
 .img_right{
   border-top: 24px solid #ffffff;
@@ -184,12 +188,24 @@ a{
   float: left;
   width: 270px;
   height: 550px;
+  margin-top: 2px;
+  /* box-sizing: border-box; */
 }
-.slider-image{
+.img_right_top{
+  border-bottom: 24px solid #ffffff;
+}
+.img_left img{
+  border-left: 24px solid #ffffff;
+  border-right: 50px solid #ffffff;
+}
+.img_right_top img{
+  border-left: 24px solid #ffffff;
+}
+/* .slider-image{
   float: left;
   margin: 27px auto 0px 0px;
   padding: 0px;
-}
+} */
 .form-control1{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
